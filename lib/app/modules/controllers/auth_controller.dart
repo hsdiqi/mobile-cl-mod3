@@ -1,3 +1,5 @@
+import 'package:codelabmod3/app/modules/views/login_page.dart';
+import 'package:codelabmod3/app/routes/app_pages.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,7 +18,7 @@ class AuthController extends GetxController {
       );
       Get.snackbar('Success', 'Registration successful',
           backgroundColor: Colors.green);
-      // Get.off(LoginPage()); // Navigasi ke halaman Login
+      Get.off(LoginPage());
     } catch (error) {
       Get.snackbar('Error', 'Registration failed: $error',
           backgroundColor: Colors.red);
@@ -34,7 +36,7 @@ class AuthController extends GetxController {
       );
       Get.snackbar('Success', 'Login successful',
           backgroundColor: Colors.green);
-      // Get.toNamed(Routes.HOME);
+      Get.toNamed(Routes.HOME);
     } catch (error) {
       Get.snackbar('Error', 'Login failed: $error',
           backgroundColor: Colors.red);

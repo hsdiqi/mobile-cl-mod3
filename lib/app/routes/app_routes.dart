@@ -5,6 +5,7 @@ abstract class Routes {
   Routes._();
   static const HOME = _Paths.HOME;
   static const REGISTER = '/register';
+  static  const LOGIN = '/login';
 }
 
 abstract class _Paths {
