@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "444933825143",
+    "project_id": "codelabmod3-456d1",
+    "storage_bucket": "codelabmod3-456d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444933825143:android:1ba24a64a12208f5f25c72",
+        "android_client_info": {
+          "package_name": "com.axample.codelabmod3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444933825143-umsh7o98ae3m0an4c7aqpr2obt80f6uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9U2bDFWPqVMW9NvBpgmsyUutr_bA5snU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444933825143-umsh7o98ae3m0an4c7aqpr2obt80f6uq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444933825143-ab067um44ck52eb28rfnkrm76rqmdhnb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.codelab"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444933825143:android:1522ac061ec6524bf25c72",
+        "android_client_info": {
+          "package_name": "com.example.codelabmod3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444933825143-umsh7o98ae3m0an4c7aqpr2obt80f6uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9U2bDFWPqVMW9NvBpgmsyUutr_bA5snU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444933825143-umsh7o98ae3m0an4c7aqpr2obt80f6uq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444933825143-ab067um44ck52eb28rfnkrm76rqmdhnb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.codelab"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
