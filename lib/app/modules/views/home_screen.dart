@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final GlobalKey<ScaffoldState> scaffoldState = GlobalKey<ScaffoldState>();
   final FirebaseFirestore firestore = FirebaseFirestore.instance;
   final AppColor appColor = AppColor();
-  final AuthController _authController = Get.find<AuthController>(); // Find AuthController
+  final AuthController _authController = Get.find<AuthController>(); 
 
   @override
   Widget build(BuildContext context) {
@@ -32,8 +32,8 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: Icon(Icons.logout),
             onPressed: () {
-              _authController.logout(); // Call the logout function
-              Get.offAllNamed('/login'); // Navigate back to the login screen
+              _authController.logout(); 
+              Get.offAllNamed('/login'); 
             },
           ),
         ],
@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.only(left: 16.0, top: 16.0),
             child: Text(
               'Todo List',
-              style: Theme.of(context).textTheme.titleLarge, // Updated
+              style: Theme.of(context).textTheme.titleLarge, 
             ),
           ),
           Expanded(
